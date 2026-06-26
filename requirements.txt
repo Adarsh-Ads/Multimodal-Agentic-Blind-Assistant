@@ -1,0 +1,28 @@
+# --- Core AI Brain (Asynchronous Vision-Language) ---
+google-genai>=1.0.0
+python-dotenv
+Pillow
+keyboard
+aiofiles
+
+# --- The Eyes (Computer Vision) ---
+opencv-python
+
+# --- The Ears (Low-Latency Speech-to-Text) ---
+faster-whisper
+sounddevice
+numpy
+scipy
+
+# --- The Voice (Asynchronous Neural TTS) ---
+RealtimeTTS[system,edge] 
+pyttsx3
+edge-tts>=7.2.8          # Crucial: 7.2.8+ resolves the 403 Bing handshake error
+pygame
+
+# --- The UI (Modern Dashboard) ---
+customtkinter            # Modern UI wrapper for the assistant
+
+# Add this to your previous requirements
+streamlit
+watchdog
