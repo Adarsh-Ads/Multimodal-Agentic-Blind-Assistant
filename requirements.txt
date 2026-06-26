@@ -15,14 +15,11 @@ numpy
 scipy
 
 # --- The Voice (Asynchronous Neural TTS) ---
-RealtimeTTS[system,edge] 
-pyttsx3
-edge-tts>=7.2.8          # Crucial: 7.2.8+ resolves the 403 Bing handshake error
+RealtimeTTS[edge]
+edge-tts>=7.2.8
 pygame
 
-# --- The UI (Modern Dashboard) ---
-customtkinter            # Modern UI wrapper for the assistant
-
-# Add this to your previous requirements
+# --- The UI Options (Dashboard & Desktop) ---
+customtkinter
 streamlit
 watchdog
